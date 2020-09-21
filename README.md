@@ -45,12 +45,21 @@
         
         
 ## 5.   PROJECT SETUP VERIFICATION
+
+        VScode
+
+![Screen Shot 2020-09-21 at 11 17 49 AM](https://user-images.githubusercontent.com/47104798/93755437-94d04500-fc03-11ea-8cc8-5a461c88f0f7.png)
          
-        VScode 
-        
-        Cypress Tool
+    
+       Cypress Tool
+       
+ ![Screen Shot 2020-09-21 at 11 19 52 AM](https://user-images.githubusercontent.com/47104798/93755455-9ef24380-fc03-11ea-94c8-4e0b01a6fe8f.png)  
+ 
 
         Browser
+        
+ ![Screen Shot 2020-09-21 at 11 20 11 AM](https://user-images.githubusercontent.com/47104798/93755471-a4e82480-fc03-11ea-8d5d-1e6fe24db7c5.png)
+ 
 
 ## 6. 	RELATED DOCUMENTS
 
