@@ -1,0 +1,22 @@
+{
+  "name": "twentythree-assignment",
+  "version": "1.0.0",
+  "description": "trello test cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swapna-Sahu/TwentyThree-Assignment.git"
+  },
+  "author": "Swapna Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swapna-Sahu/TwentyThree-Assignment/issues"
+  },
+  "homepage": "https://github.com/Swapna-Sahu/TwentyThree-Assignment#readme",
+  "devDependencies": {
+    "cypress": "^5.2.0"
+  }
+}
