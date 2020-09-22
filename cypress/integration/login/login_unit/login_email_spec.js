@@ -16,5 +16,7 @@ describe('Trello web page', function () {
         cy.get('#login').contains('Log in').click()
         cy.get('.error-message')
           .should('contain','Missing email')
+        cy.screenshot()
+        cy.wait(200)
     })
 })    
