@@ -9,6 +9,7 @@ describe('API testing',() => {
     "idList":   "5f69c57caeef767becdb0179"
     }
 
+    // REST API -  https://api.trello.com/1/cards/{id}
     cy.request('PUT','https://api.trello.com/1/cards/5f6a1d7bfb2d0f3b089c8ebd',item)
     
 
