@@ -11,9 +11,13 @@ describe('Trello web page', function () {
         cy.contains('h1','Log in to Trello')
     })
 
-    // Testing with success login 
-    it('requires password', function() {
-        cy.get('#user').type('swapna.sahu15@gmail.com')
-        cy.get('#login').click()
+    it('Login using Google account', function() {
+        cy.wait(500)
+        cy.get('[data-analytics-button=loginWithGmailButton]').click()
+        .then((response)=>{
+            let url= response
+            cy.request(url).its('body').should('include', '</html>')
+        })
+    
     })
-})  
+})

@@ -11,9 +11,10 @@ describe('Trello web page', function () {
         cy.contains('h1','Log in to Trello')
     })
 
-    // Testing with success login 
-    it('requires password', function() {
-        cy.get('#user').type('swapna.sahu15@gmail.com')
+    // Testing with empty password
+    it('Detect unregistred email id', function() {
+        cy.get('#user').type('bichitrananda.sahoo@gmail.com')
         cy.get('#login').click()
-    })
-})  
+        cy.get('#error > .error-message')
+          .contains('p','There isn\'t an account for this email')})
+})    

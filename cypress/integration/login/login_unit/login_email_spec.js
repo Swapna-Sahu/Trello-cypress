@@ -11,9 +11,10 @@ describe('Trello web page', function () {
         cy.contains('h1','Log in to Trello')
     })
 
-    // Testing with success login 
-    it('requires password', function() {
-        cy.get('#user').type('swapna.sahu15@gmail.com')
-        cy.get('#login').click()
+    // Testing with empty email and password
+    it('Requires email for log in', function() {
+        cy.get('#login').contains('Log in').click()
+        cy.get('.error-message')
+          .should('contain','Missing email')
     })
-})  
+})    
