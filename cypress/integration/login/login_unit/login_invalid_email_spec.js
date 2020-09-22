@@ -17,5 +17,7 @@ describe('Trello web page', function () {
         cy.get('#login').click()
         cy.get('#password-error > .error-message')
           .contains('p','Incorrect email address and / or password. Do you need help ')
+        cy.screenshot()
+        cy.wait(200)
     })
 })  

@@ -1,3 +1,4 @@
 {
-    "baseURL":"https://trello.com/"
+    "baseURL":"https://trello.com/",
+     "chromeWebSecurity": false 
 }
