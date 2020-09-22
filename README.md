@@ -23,7 +23,7 @@
         Node JS
         Node.js 10 or 12 and above
 
-        Browser - Google Chrome
+        Browser - Google Chrome and FireFox
 
 
 ## 4.	INSTALLATION
