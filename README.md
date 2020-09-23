@@ -65,7 +65,7 @@
 
 ## 6.    PROJECT SETUP 
 
-      1. Clone the project using git clone 
+      1. Clone the project using git clone https://github.com/Swapna-Sahu/TwentyThree-Assignment.git
       
       2. Open the folder from the VScode
       
@@ -82,7 +82,7 @@
 ## 7.    NOTES FOR THE PROJECT
 
 
-      1. Login and Register request is having input validation test cases and result can be seen in the cypress tool. 
+####   1. Login and Register request is having input validation test cases and result can be seen in the cypress tool. 
       
          Even though a successful register can not see the home screen because Cypress detected a cross origin error.
          
@@ -91,7 +91,7 @@
          Cypress does not allow you to navigate to a different origin URL within a single test.
          
          
-      2. Card,Comment and Attachment test cases are done using REST API testing. I have given my api key and token to it to create, edit or delete calls.
+####    2. Card,Comment and Attachment test cases are done using REST API testing. I have given my api key and token to it to create, edit or delete calls.
       
          You can see the success result in left side of cypress tool. 
          
@@ -103,7 +103,23 @@
 ![Screen Shot 2020-09-23 at 11 53 27 AM](https://user-images.githubusercontent.com/47104798/93997307-8c0e7900-fd93-11ea-90ee-392a264ee7f1.png)     
 
 
+####   3. If you want run all the REST API test cases in your trello then below things to do .
 
-
-##   All set now... Enjoy Coding! 
+            - Get your API key  :   https://trello.com/app-key
+            - Generate token    :   There will be a link for generate token in above link
+            - Get idList        :   It is column id of the board
+            - Get id            :   card id (delete or edit)
+            - Get idAction      :   id for the comment
+            - Replace idList, id and idAction value in the test cases.
+            - Run the cypress and spec.js 
+            - Check the result in your trello board
+            
+######      How to get these id from your board?
+            
+            - Open any of your trello card
+            - Copy the card link 
+            - Paste it in another window with extension of .json
+            - Find idList,id and idAction in that json format.
+            
+            
 
