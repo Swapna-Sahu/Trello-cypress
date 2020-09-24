@@ -20,19 +20,19 @@ describe('Trello web page', function () {
 
     // Testing using email id 
     it('Input Email id', function(){
-        cy.get('[id=email]').type('test@gmail.com{enter}')
-        //cy.get('#signup-submit').contains('Sign').click()
+        cy.get('[id=email]').type('test3@gmail.com{enter}')
+        //cy.get('#signup-submit').contains('Sign').click() - check the error empty full name 
     })
 
     // Full name 
     it('Enter full name', function(){
         cy.get('#name').type('Swapna Sahu{enter}')
-        //cy.get('.ValidationElement_WarningIcon')
+        //cy.get('.ValidationElement_WarningIcon') - check the error empty password
     })
 
     // Full name 
     it('Enter password', function(){
-        cy.get('#password').type('hellotest12{enter}')
+        cy.get('#password').type('hellotest12')
         cy.get('#signup-submit').click({force: true})
     })
 
