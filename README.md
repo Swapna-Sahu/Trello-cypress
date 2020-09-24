@@ -121,5 +121,14 @@
             - Paste it in another window with extension of .json
             - Find idList,id and idAction in that json format.
             
+####   4. Responsive screen shot is added for Ipad and iPhone.
+
+            Using - 
+            viewport() - We can see the responsive in different platform
+            screenshot() - It is only done for the login
+            
+            
+            
+            
             
 
