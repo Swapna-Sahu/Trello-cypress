@@ -24,3 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 import 'cypress-file-upload';
+
+Cypress.Commands.add("openboard", () => { 
+    cy.login()
+    cy.contains('h3','Personal Boards')
+    cy.get('a')
+    .should('have.attr','href')
+    .and('include','https://trello.com/b/AVbCy2tp/test')
+    .click()
+})
