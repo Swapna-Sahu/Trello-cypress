@@ -33,3 +33,14 @@ Cypress.Commands.add("openboard", () => {
     .and('include','https://trello.com/b/AVbCy2tp/test')
     .click()
 })
+
+Cypress.Commands.add("login", () => { 
+    cy.visit('https://trello.com/')
+    cy.get('a')
+    .should('have.attr','href')
+    .and('include','/login')
+    .click()
+    cy.get('#user').type('swapna.sahu15@gmail.com{enter}')
+    cy.get('#password').type('smartfun12{enter}')
+    cy.url().should('equal','https://trello.com/swapna249/boards')
+})
