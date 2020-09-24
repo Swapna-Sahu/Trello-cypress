@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Swapna-Sahu/TwentyThree-Assignment#readme",
   "devDependencies": {
-    "cypress": "^5.2.0"
+    "cypress": "^5.2.0",
+    "cypress-file-upload": "^4.1.1"
   }
 }
