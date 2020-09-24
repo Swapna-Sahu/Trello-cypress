@@ -71,7 +71,7 @@
       
       3. Open cypress tool using npx cypress open or any of the above command
       
-      4. Project Structure in the cypress tool will be : 
+      4. Project Structure will be : 
 
 ![Screen Shot 2020-09-23 at 11 06 03 AM](https://user-images.githubusercontent.com/47104798/93991792-f66feb00-fd8c-11ea-8b95-8fc44b391f67.png)
 
