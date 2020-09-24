@@ -14,10 +14,7 @@ describe('Trello web page', function () {
     it('Login using Google account', function() {
         cy.wait(500)
         cy.get('[data-analytics-button=loginWithGmailButton]').click()
-        .then((response)=>{
-            let url= response
-            cy.request(url).its('body').should('include', '</html>')
-        })
     
     })
+
 })
