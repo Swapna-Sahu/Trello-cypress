@@ -127,6 +127,13 @@
             viewport() - We can see the responsive in different platform
             screenshot() - It is only done for the login
             
+####   5. UI Testing for Cards and Comments 
+
+            UI testing for card is placed under UI testing folder. 
+            You can also find common command used openboard i.e cy.openboard() where the code is wriiten in support/commands.js file.
+            
+            
+            
             
             
             
