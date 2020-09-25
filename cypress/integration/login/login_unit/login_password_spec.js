@@ -13,7 +13,7 @@ describe('Trello web page', function () {
 
     // Testing with empty password
     it('Incorrect password', function() {
-        cy.get('#user').type('bichitra@temenos.com')
+        cy.get('#user').type('bichitra@gmail.com')
         cy.get('#password').type('hellotest{enter}')
         cy.get('#password-error > .error-message')
           .contains('p','Incorrect email address and / or password. Do you need help ')
